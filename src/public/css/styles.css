@@ -10,4 +10,50 @@
     text-align: center;
 }
 
+.header-imagenLogo{
+    width: 25%;
+}
+
+.header-principalSuperior{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E6CBA8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-principalInferior{
+    display: none;
+}
+
+@media (min-width: 481px){
+
+}
+
+@media (min-width: 769px){
+
+      .header-principalInferior{
+        display: block;
+        background-color: #000BC1;
+    }
+
+    .header-principalInferior ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-principalInferior ul li{
+        margin: 20px;
+        list-style: none;
+       
+    }
+
+    .header-principalInferior a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+}
+
 
