@@ -1,0 +1,25 @@
+{
+  "name": "universodeportes",
+  "version": "1.0.0",
+  "description": "El proyecto se basa en el desarrollo de un E-Commerce que comercializa distintos tipos productos deportivos, entre los cuales podemos mencionar: calzado, indumentaria, accesorios, etc. Apunta a todo tipo de público (hombres, mujeres, niños, jovenes y adultos) que realicen alguna actividad deportiva ya se de forma profesional, amateur o recreativa.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VillafaneCristian/grupo_14_universoDeportes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VillafaneCristian/grupo_14_universoDeportes/issues"
+  },
+  "homepage": "https://github.com/VillafaneCristian/grupo_14_universoDeportes#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
